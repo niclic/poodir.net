@@ -9,7 +9,7 @@ namespace Chapter01Tests
         [Test]
         public void Diameters_GivenA2DArrayOfRimsAndTires_CalculatesWheelDiameters()
         {
-            // rim and tire sizes (now in milimeters!) in a 2d array
+            // rim and tire sizes (now in milimeters) in a 2d array
             int[,] data =
                 {
                     {622, 20}, 

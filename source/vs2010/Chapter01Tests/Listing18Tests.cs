@@ -26,6 +26,8 @@ namespace Chapter01Tests
             Assert.AreEqual(ExpectedGearRatio, CreateGear().Ratio());
         }
 
+        // Factory methods are useful in test fixtures to isolate
+        // the creation of objects that are shared (gosh!) between tests.
         private Gear CreateGear()
         {
             return new Gear(NumberOfChainringTeeth, NumberOfCogTeeth, CreateWheel());

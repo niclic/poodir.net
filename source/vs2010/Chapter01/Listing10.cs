@@ -5,9 +5,9 @@ namespace Chapter01
     public class Listing10
     {
         // Direct references into complicated structures are confusing, 
-        // because they obscure what the data really is, and they are 
-        // a maintenance nightmare, because every reference will need 
-        // to be changed when the structure of the array changes.
+        // because they obscure what the data really is. These dependecies
+        // can (and will) become amaintenance nightmare, because every reference 
+        // will need to be changed when the structure of the array changes.
         public class ObscuringReferences
         {
             public int[,] Data { get; private set; }

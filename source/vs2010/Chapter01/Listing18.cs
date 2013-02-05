@@ -28,6 +28,9 @@ namespace Chapter01
             }
         }
 
+        // Wheel is now a separate class. The need to calculate
+        // wheel circumference prompted this change. Both Wheel
+        // and Gear have a single responsibility.
         public class Wheel
         {
             public int Rim { get; private set; }

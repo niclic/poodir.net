@@ -14,7 +14,7 @@ namespace Chapter01
                 _cog = cog;
             }
 
-            // If cog is wrapped in a method (property), you can chainge what cog means
+            // If cog is wrapped in a method (a property in C#), you can change what _cog means
             // by implementing your own version of the method.
             public int Cog
             {

@@ -6,9 +6,9 @@ namespace Chapter01
     public class Listing12
     {
         // The public interface of RevealingReferences is the same (more or less) as
-        // ObscuringReferences - it takes as an initialization argument a 2D array and
-        // implements a Diameters method. However, the Diameters method hs no knowledge
-        // of the internal structure of the array.
+        // ObscuringReferences - it takes a 2D array as an initialization argument and
+        // implements a Diameters method. However, the Diameters method has no knowledge
+        // of the internal structure of the array, which is good.
         public class RevealingReferences
         {
             public List<Wheel> Wheels { get; private set; } 
@@ -42,6 +42,7 @@ namespace Chapter01
         }
 
         // This could also be a Wheel class, but the original text uses a struct.
+        // See Listing18 for an example of a Wheel class.
         public struct Wheel
         {
             public int Rim { get; private set; }

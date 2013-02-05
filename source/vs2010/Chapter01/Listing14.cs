@@ -5,10 +5,11 @@ namespace Chapter01
 {
     public class Listing14
     {
-        // Compare this class to Listing12. The method in Listing12 has two responsibilities -
-        // it iterates over the wheels and it calculates the diameter of each wheel.
-        // This listing simplifies the Diameters method by separating it into two methods,
-        // each with one responsibility.
+        // Compare this class to Listing12. The method in Listing12 has two 
+        // responsibilities - it iterates over the list of Wheel objects and 
+        // it calculates the diameter of each wheel. This listing simplifies 
+        // the Diameters method by separating it into two methods, each with 
+        // one responsibility.
         public class RevealingReferences
         {
             public List<Wheel> Wheels { get; private set; }
@@ -18,7 +19,7 @@ namespace Chapter01
                 Wheels = Wheelify(data);
             }
 
-            // First - iterate over the list (and finally return the list of calculated diameters).
+            // First - iterate over the list (and return the list of calculated diameters).
             public List<int> Diameters()
             {
                 return new List<int>(Wheels.Select(Diameter));
