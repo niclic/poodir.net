@@ -43,10 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestBase.cs" />
+    <Compile Include="Listing02Tests.cs" />
+    <Compile Include="Listing03Tests.cs" />
+    <Compile Include="Listing10Tests.cs" />
+    <Compile Include="Listing12Tests.cs" />
+    <Compile Include="Listing16Tests.cs" />
+    <Compile Include="Listing17Tests.cs" />
+    <Compile Include="Listing18Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chapter01\Chapter01.csproj">
+      <Project>{1D92D69E-BD49-472B-A352-E455DDE3FF7C}</Project>
+      <Name>Chapter01</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -40,6 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Listing02.cs" />
+    <Compile Include="Listing03.cs" />
+    <Compile Include="Listing05.cs" />
+    <Compile Include="Listing06.cs" />
+    <Compile Include="Listing07.cs" />
+    <Compile Include="Listing08.cs" />
+    <Compile Include="Listing10.cs" />
+    <Compile Include="Listing12.cs" />
+    <Compile Include="Listing14.cs" />
+    <Compile Include="Listing16.cs" />
+    <Compile Include="Listing17.cs" />
+    <Compile Include="Listing18.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
