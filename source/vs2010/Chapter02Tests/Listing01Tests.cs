@@ -4,6 +4,7 @@ using Gear = Chapter02.Listing01.Gear;
 
 namespace Chapter02Tests
 {
+    [TestFixture]
     public class Listing01Tests : TestBase
     {
         [Test]
