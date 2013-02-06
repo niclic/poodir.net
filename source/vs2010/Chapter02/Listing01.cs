@@ -1,7 +1,8 @@
 ﻿namespace Chapter02
 {
-    public class Listing19
+    public class Listing01
     {
+        // Gear has at least four dependencies on Wheel. Can you tell what they are?
         public class Gear
         {
             public int Chainring { get; private set; }
