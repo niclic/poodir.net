@@ -1,12 +1,12 @@
 ﻿using NUnit.Framework;
 
-using Gear = Chapter02.Listing02.Gear;
-using Wheel = Chapter02.Listing02.Wheel;
+using Gear = Chapter02.Listing03.Gear;
+using Wheel = Chapter02.Listing03.Wheel;
 
 namespace Chapter02Tests
 {
     [TestFixture]
-    public class Listing02Tests : TestBase
+    public class Listing03Tests : TestBase
     {
         [Test]
         public void GearInches_ExpectsDuckThatKnowsDiameter_CalculatesGearInches()
